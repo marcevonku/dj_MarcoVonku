@@ -7,6 +7,13 @@ body, ul, li {
    font-family: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
 
+ body{
+  background-image: url(../image/marco_orange3.jpg);
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+
+ }
+
 h1{	
   color: white;
   font-size: 1.75em;
@@ -29,16 +36,6 @@ a{
   font-size: 1em;
   cursor: pointer;
   user-select: none;
-}
-
-#miVideo{
-  position: fixed;
-  top: 0;
-  left: -9999px;
-  height: 240%;
-  right: -9999px;
-  margin: auto;
-  /*opacity: 0;*/
 }
 
 #main-wrapper{
@@ -70,7 +67,6 @@ body div#main-wrapper main aside nav li a{
   font-family: roboto, sans-serif;
 }
 
-
 body div#main-wrapper main aside nav li a:hover {
   color:aquamarine;
   transition: color 1s;
@@ -98,10 +94,12 @@ footer {
   text-align: center;
   height: 2.5em;
 }
+
 footer li {
   display: inline-block;
   padding: 0 10px;
 }
+
 footer li a img {
   width: 1.5em;
   border-radius: 50%;
@@ -112,7 +110,6 @@ footer li a img {
 html body div#mian-wrapper footer ul li a h6{
 	margin: 0;
 }
-
 
 @media (max-width: 600px) {
   body{

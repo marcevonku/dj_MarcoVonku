@@ -7,6 +7,13 @@ body, ul, li {
    font-family: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
 
+ body{
+  background-image: url(../image/marco_senia.jpg);
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+
+ }
+
 h1{	
   color: white;
   font-size: 1.75em;
@@ -31,15 +38,7 @@ a{
   user-select: none;
 }
 
-#miVideo{
-  position: fixed;
-  top: 0;
-  left: -9999px;
-  height: 240%;
-  right: -9999px;
-  margin: auto;
-  /*opacity: 0;*/
-}
+
 
 #main-wrapper{
   position: relative;
