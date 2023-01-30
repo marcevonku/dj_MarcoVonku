@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+display: grid;
+}
+
+#su_video{
+	position: fixed;
+	top: 0;
+	left: -9999px;
+	right: -9999px;
+	height: 200%;
+	margin: auto;
+	opacity: 0.7;
+}
+
+header{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 4em;
+	background-color: grey;
+}
+
+header h1{
+	margin: 0;
+}
+header h2{
+	margin: 0;
+}
+
+main{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+main aside{
+	margin: 0;
+	padding: 0;
+	width: 24.99%;
+	height: 100%;
+	background-color: grey;
+	float: left;
+}
+
+main aside nav{
+	width: 100%;
+
+}
+
+main aside nav ul{
+	list-style: none;
+	padding: 0;
+}
+
+main aside nav ul li{
+	padding: 1em;
+}
+
+main aside nav ul li a{
+	text-decoration: none;
+	font-size: 1em;
+}
+
+main section{
+	margin: 0;
+	padding: 0;
+	width: 70%;
+	float: right;
+
+}
+
+footer{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 4em;
+	padding-bottom: 0;
+	position: relative;
+	display: inline;
+	background-color: grey;
+}
+
+footer div{
+	margin: 0;
+	padding: 0.7em;
+	width: 100%;
+	height: 100%;
+}
+
+footer div ul li{
+	list-style: none;
+	width: 13%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin: 0.2em;
+}
+
+footer div ul li a{
+	text-decoration: none;
+	margin: auto;
+	height: 20px;
+	padding: 0px;
+ 	color: black;
+}
+
+
+footer div ul li a h6{
+	margin: 0;
+}
